@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         // Challenge Code
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
+        enterNameTextField.resignFirstResponder()
         nameLabel.textColor = UIColor.blueColor()
         enterNameTextField.text = ""
     }
